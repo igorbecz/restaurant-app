@@ -1,0 +1,31 @@
+{
+  "name": "restaurant-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon server.js",
+    "start:prod": "NODE_ENV=production server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorbecz/restaurant-app.git"
+  },
+  "author": "Igor Becz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/igorbecz/restaurant-app/issues"
+  },
+  "homepage": "https://github.com/igorbecz/restaurant-app#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.0"
+  }
+}
